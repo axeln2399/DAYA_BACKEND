@@ -24,6 +24,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
+app.get("/", (req, res) => {
+    let hasil = { greeting: "Hello BTPNS SHIFTED 3!" };
+    res.status(201).json(hasil);
+});
+
 app.use("/data_dump", routerDump);
 app.use("/login", routerLogin);
 app.use("/teller", routerTeller);
