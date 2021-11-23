@@ -1,0 +1,32 @@
+[
+    {
+        "id": "927890",
+        "name": "Bogor Membara",
+        "address": "Jl. Villa Duta Raya Baranangsiang",
+        "co_id": "567893"
+    },
+    {
+        "id": "927891",
+        "name": "Bogor  Makmur",
+        "address": "Jl. Sukamulya 1, Sukasari, Kec. Bogor Tim.",
+        "co_id": "567893"
+    },
+    {
+        "id": "927892",
+        "name": "Serang Bersahaja",
+        "address": "Jl. Pesut, Sumurpecung, Kec. Serang",
+        "co_id": "567898"
+    },
+    {
+        "id": "927893",
+        "name": "Serang Maju",
+        "address": "Jl. Hs. Khozin 1-11, Sumurpecung, Kec. Serang",
+        "co_id": "567898"
+    },
+    {
+        "id": "927894",
+        "name": "Serang Permai",
+        "address": "Jl. KH Abdul Fatah Hasan No.63, Cipare, Kec. Serang",
+        "co_id": "567898"
+    }
+]

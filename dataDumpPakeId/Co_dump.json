@@ -1,0 +1,18 @@
+[
+    {
+        "id": "567893",
+        "name": "Ugan Gandar",
+        "region": "Bogor",
+        "nik": "758435",
+        "password": "$2b$10$0pHH562cbqFzOxHoCuFF.uo2kxioceasviS.Je.m5iiIm.2W5pGjG",
+        "teller_id": "324557"
+    },
+    {
+        "id": "567898",
+        "name": "Puspita Ayuningtyas",
+        "region": "Serang",
+        "nik": "758439",
+        "password": "$2b$10$0pHH562cbqFzOxHoCuFF.uo2kxioceasviS.Je.m5iiIm.2W5pGjG",
+        "teller_id": "324557"
+    }
+]
