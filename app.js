@@ -5,6 +5,9 @@ const app = express();
 const cors = require("cors");
 const db = require("./models/index");
 
+const config = require("./config/index");
+const port = 3000;
+
 const routerTeller = require("./routers/TellerRouter");
 const routerCommunityOfficer = require("./routers/CommunityOfficerRouter");
 const routerCustomerRoutineMeetup = require("./routers/CustomerRoutineMeetupRouter");
@@ -37,4 +40,6 @@ app.use("/communityOfficer", routerCommunityOfficer);
 app.use("/customerRoutineMeetup", routerCustomerRoutineMeetup);
 app.use("/nasabah", routerNasabah);
 
-module.exports = app;
+app.listen(config.port, () => {
+    console.log(`Using PORT ${config.port}!`);
+});
